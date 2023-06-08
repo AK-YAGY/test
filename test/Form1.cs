@@ -59,6 +59,7 @@ namespace test
                     HOperatorSet.GetGrayval(Image, Row, Col, out Grayval1);
                     labelX1.ForeColor = Color.Black;
                     labelX1.Text = $"Row:{Row.D.ToString("0")} Col:{Col.D.ToString("0")} Val:{Grayval1.D.ToString("0")}";
+                    //labelX1.Text = $"Row:{Row.D.ToString("0")} Col:{Col.D.ToString("0")} Val:{Grayval1.D.ToString("0")}";
                 }
             }
 
